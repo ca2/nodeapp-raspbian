@@ -27,6 +27,9 @@
 #define LINUX
 #endif
 
+#ifndef RASPBIAN
+#define RASPBIAN
+#endif
 
 #define __WINESRC__
 

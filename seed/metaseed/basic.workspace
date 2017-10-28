@@ -55,10 +55,7 @@
 			<Depends filename="../../appseed/app/app.cbp" />
 			<Depends filename="../../../app/appseed/aura/aura.cbp" />
 			<Depends filename="../../../app/appseed/axis/axis.cbp" />
-			<Depends filename="../../../../xcore/third/appseed/clientchannels/axisclientchannels.cbp" />
 			<Depends filename="../../../app/appseed/freeimage/axisfreeimage.cbp" />
-			<Depends filename="../../../../xcore/third/appseed/freerdp/axisfreerdp.cbp" />
-			<Depends filename="../../../../xcore/third/appseed/winpr/axiswinpr.cbp" />
 			<Depends filename="../../../app/appseed/base/base.cbp" />
 			<Depends filename="../../../app/appseed/basecore/basecore.cbp" />
 			<Depends filename="../../../app/appseed/core/core.cbp" />
@@ -95,10 +92,7 @@
 			<Depends filename="../../../app/appseed/aura/aura.cbp" />
 			<Depends filename="../../../app/appseed/freeimage/axisfreeimage.cbp" />
 		</Project>
-		<Project filename="../../../../xcore/third/appseed/clientchannels/axisclientchannels.cbp" />
 		<Project filename="../../../app/appseed/freeimage/axisfreeimage.cbp" />
-		<Project filename="../../../../xcore/third/appseed/freerdp/axisfreerdp.cbp" />
-		<Project filename="../../../../xcore/third/appseed/winpr/axiswinpr.cbp" />
 		<Project filename="../../../app/appseed/base/base.cbp">
 			<Depends filename="../../../app/appseed/axis/axis.cbp" />
 		</Project>
@@ -126,5 +120,8 @@
 		</Project>
 		<Project filename="../../../app/appseed/sphere/sphere.cbp" />
 		<Project filename="../../../app-core/appseed/wndfrm_core/wndfrm_core.cbp" />
+		<Project filename="../../../third/appseed/clientchannels/axisclientchannels.cbp" />
+		<Project filename="../../../third/appseed/winpr/axiswinpr.cbp" />
+		<Project filename="../../../third/appseed/freerdp/axisfreerdp.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
