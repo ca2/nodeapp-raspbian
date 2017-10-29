@@ -178,12 +178,12 @@ extern "C" void _BPT();
 #endif //_AMD64_
 
 
-
+//#include <debugbreak.h>
 
 #ifdef __cplusplus
 
 
-inline void debug_break() { asm("int $3"); }
+inline void debug_break() { __asm__ __volatile__ ("bkpt #0"); }
 
 
 #endif
