@@ -7,14 +7,21 @@
 #define _THREAD_SAFE
 
 
-
-
 #ifndef LINUX
 #define LINUX
 #endif
-#define BSD_STYLE_SOCKETS
-#define VARIADIC_TEMPLATE_FORMAT2
 
+
+#ifndef RASPBIAN
+#define RASPBIAN
+#endif
+
+
+#define BSD_STYLE_SOCKETS
+#define HAVE_MYSQL
+#define HAVE_OPENSSL
+
+#define VARIADIC_TEMPLATE_FORMAT2
 
 
 #ifdef _DEBUG
@@ -22,18 +29,7 @@
 #endif
 
 
-
-#ifndef LINUX
-#define LINUX
-#endif
-
-#ifndef RASPBIAN
-#define RASPBIAN
-#endif
-
 #define __WINESRC__
-
-
 
 #define CLASS_DECL_EXPORT
 #define CLASS_DECL_IMPORT
