@@ -17,9 +17,9 @@
 #endif
 
 
-#define BSD_STYLE_SOCKETS
-#define HAVE_MYSQL
-#define HAVE_OPENSSL
+#define BSD_STYLE_SOCKETS 1
+#define HAVE_MYSQL 1
+#define HAVE_OPENSSL 1
 
 #define VARIADIC_TEMPLATE_FORMAT2
 
