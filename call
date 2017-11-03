@@ -23,6 +23,8 @@ commit()
 
 commit "../app"
 
+commit "../app-ca2"
+
 commit "../app-cidadedecuritiba"
 
 commit "../app-core"

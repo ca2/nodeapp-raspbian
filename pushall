@@ -23,6 +23,8 @@ push()
 
 push "../app"
 
+push "../app-ca2"
+
 push "../app-cidadedecuritiba"
 
 push "../app-core"

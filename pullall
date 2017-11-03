@@ -23,6 +23,8 @@ pull()
 
 pull "../app"
 
+pull "../app-ca2"
+
 pull "../app-cidadedecuritiba"
 
 pull "../app-core"

@@ -23,6 +23,8 @@ sall()
 
 sall "../app"
 
+sall "../app-ca2"
+
 sall "../app-cidadedecuritiba"
 
 sall "../app-core"
