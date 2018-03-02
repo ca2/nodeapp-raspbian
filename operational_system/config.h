@@ -49,6 +49,13 @@
 #define inline static
 #endif
 
+#ifdef __cplusplus
+
+#define LOG_THIS_TAG (demangle(typeid(*this).name()))
+#define LOG_MEMBER_PREFIX __FUNCTION__
+
+#endif
+
 #define static_inline static inline
 
 
