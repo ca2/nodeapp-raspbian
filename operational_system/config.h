@@ -73,6 +73,8 @@
 
 
 
+#define _strdup strdup
+
 
 
 
