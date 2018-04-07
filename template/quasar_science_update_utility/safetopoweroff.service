@@ -1,0 +1,12 @@
+[Unit]
+Description=Tell Plymouth to show a safe-to-power-off message
+DefaultDependencies=no
+After=umount.target
+Before=shutdown.target
+
+[Service]
+ExecStart=-/bin/plymouth update --status " SAFE TO POWER DOWN"
+Type=oneshot
+
+[Install]
+WantedBy=shutdown.target
