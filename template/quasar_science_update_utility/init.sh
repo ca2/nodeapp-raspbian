@@ -19,3 +19,7 @@ file='/keyboard.xml'
 cp $dir$file ~/.matchbox/keyboard.xml
 
 
+
+
+
+
