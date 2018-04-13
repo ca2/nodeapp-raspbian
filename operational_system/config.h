@@ -3,7 +3,7 @@
 
 
 //#define _GNU_SOURCE
-#define _REENTRANT
+//#define _REENTRANT
 #define _THREAD_SAFE
 
 
